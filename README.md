@@ -39,3 +39,15 @@
   * https://github.com/alura-cursos/01-nextjs-course/blob/aula2.5/public/images/alura-cases.png
   * https://github.com/alura-cursos/01-nextjs-course/blob/aula2.5/public/images/alura-logo.svg
 * GitHub com o código dos componentes: https://github.com/omariosouto/01-nextjs-course/pull/6/files
+
+## Página de FAQ
+* Endpoint da API: https://gist.githubusercontent.com/omariosouto/0ceab54bdd8182cbd1a4549d32945c1a/raw/578ad1e8e5296fa048e3e7ff6b317f7497b31ad9/alura-cases-faq.json
+
+## Importante:
+* getStaticProps() -> pense em conteúdo estático (roda somente em build time , mas em modo dev sempre roda a cada acesso) (Static Generation)
+* getServerSideProps() -> conteúdo dinâmico (npm run build && npm run start) (roda a cada acesso que você recebe, em modo dev sempre roda a cada acesso) (Server-Side Rendering)
+* useEffect
+* Jamstack - https://jamstack.org
+* arquivo **next.config.js**
+
+## Publicando o Site na nuven
