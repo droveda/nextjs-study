@@ -5,7 +5,7 @@ import { Box, Text } from '../../theme/components';
 import PageTitle from '../../components/PageTitle';
 
 export default function FAQScreen({ faq, qualquercoisa }) {
-    console.log(faq);
+    // console.log(faq);
     console.log(qualquercoisa);
 
   return (
